@@ -123,6 +123,15 @@ function speakThis(message) {
     }
 
 
+    else if(message.includes('parla del progetto')) {
+
+        const finalText = "R.H.A è l'azienda che si occupa di garantire sicurezza; questa idea ci è venuta grazie al desiderio di salvare le persone in caso di guerra;  contribuendo così alla salvezza dell'umanità. molte persone pensano che l'IA non sia uno strumento che contribuisce alla salvezza dell umanità; ma noi dellimpresa RHA vogliamo farvi cambiare idea, infatti abbiamo creato Helpy; proprio per farvi capire che con l'IA tutto è possibile; RHA una scelta per salvare il mondo";
+
+        speech.text = finalText;
+
+    }
+
+
     else if(message.includes('come ti chiami')) {
 
         const finalText = "Io mi chiamo Helpy, un assistente creato da Alessandro, per gestire al meglio l'azienda";
